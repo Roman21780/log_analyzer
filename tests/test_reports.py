@@ -1,6 +1,5 @@
 import pytest
-
-from reports import generate_average_report
+from log_analyzer.reports import generate_average_report
 
 
 @pytest.fixture

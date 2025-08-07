@@ -1,9 +1,8 @@
-#!/usr/bin/env python3
 import argparse
 from datetime import datetime
 from tabulate import tabulate
-from reports import generate_average_report
-from utils import read_logs_from_files
+from log_analyzer.reports import generate_average_report
+from log_analyzer.utils import read_logs_from_files
 
 
 def parse_args():
